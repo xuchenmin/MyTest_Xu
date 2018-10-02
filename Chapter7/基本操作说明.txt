@@ -1,0 +1,2 @@
+/*本章学习mock平台的moco框架*/
+启动命令：java -jar ./moco-runner-0.11.0-standalone.jar http -8888 -c startup1.json

@@ -1,0 +1,27 @@
+[
+  {
+    "description":"模拟一个没有参数的get请求",
+    "request":{
+      "uri":"/getDemo",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是一个没有参数的get请求~"
+    }
+  },
+  {
+    "description":"模拟一个带参数的get请求",
+    "request":{
+      "uri":"/getwithParam",
+      "method":"get",
+      "queries":{
+        "name":"xuchenmin",
+        "age":"24"
+      }
+    },
+    "response":{
+      "text":"带参数的get请求~姓名是：许陈敏，年龄是24岁~"
+    }
+
+  }
+]

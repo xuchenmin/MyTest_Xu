@@ -1,0 +1,12 @@
+[
+  {
+    "description":"这是一个Post请求",
+    "request":{
+      "uri":"/postDemo",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个POST请求~~~"
+    }
+  }
+]
